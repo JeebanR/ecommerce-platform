@@ -1,0 +1,129 @@
+.main { flex: 1; }
+
+.pageHeader {
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+  padding: 28px 0;
+}
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+.breadcrumb span { color: var(--text-2); cursor: pointer; }
+.breadcrumb span:hover { color: var(--primary); }
+.sep { color: var(--text-3); }
+.active { color: var(--text); font-weight: 600; cursor: default !important; }
+
+.pageTitle {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin-bottom: 6px;
+}
+.pageSub { font-size: 15px; color: var(--text-2); }
+
+/* Grid */
+.catGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.catCard {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform var(--transition), box-shadow var(--transition);
+  animation: fadeUp 0.5s ease both;
+}
+.catCard:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: transparent;
+}
+
+.catHeader {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  position: relative;
+}
+
+.catIcon { font-size: 56px; line-height: 1; }
+
+.catBadge {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 99px;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.catBody { padding: 18px 20px; }
+
+.catName {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  letter-spacing: -0.3px;
+}
+
+.catPreview {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.previewImg {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-xs);
+  object-fit: cover;
+  border: 1px solid var(--border);
+}
+
+.catCta {
+  font-size: 13px;
+  font-weight: 700;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-family: var(--font-body);
+  transition: gap var(--transition);
+}
+.catCta:hover { text-decoration: underline; }
+
+/* Bottom Banner */
+.bottomBanner {
+  background: var(--secondary);
+  padding: 48px 0;
+  margin-top: 16px;
+}
+.bannerInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.bannerText h2 {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 6px;
+}
+.bannerText p {
+  font-size: 14px;
+  color: rgba(255,255,255,0.55);
+}

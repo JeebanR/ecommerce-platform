@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.stars { color: #f59e0b; letter-spacing: 1px; }
+
+.rating { font-weight: 700; color: var(--text); }
+
+.count { color: var(--text-3); }
+
+/* Sizes */
+.sm .stars  { font-size: 12px; }
+.sm .rating { font-size: 12px; }
+.sm .count  { font-size: 11px; }
+
+.md .stars  { font-size: 15px; }
+.md .rating { font-size: 14px; }
+.md .count  { font-size: 13px; }
+
+.lg .stars  { font-size: 20px; }
+.lg .rating { font-size: 17px; }
+.lg .count  { font-size: 14px; }
