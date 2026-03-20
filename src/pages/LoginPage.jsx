@@ -44,7 +44,7 @@ export default function LoginPage() {
       {/* Left Panel */}
       <div className={styles.leftPanel}>
         <div className={styles.leftContent}>
-          <div className={styles.leftLogo} onClick={() => navigate('/')}>🛒 bodegaa</div>
+          <div className={styles.leftLogo} onClick={() => navigate('/')}>🛒 jeevan</div>
           <h2 className={styles.leftTitle}>Fresh groceries, delivered in minutes</h2>
           <p className={styles.leftSub}>Join 50,000+ happy customers shopping smarter every day.</p>
           <div className={styles.leftFeatures}>
@@ -69,7 +69,7 @@ export default function LoginPage() {
         <div className={styles.formCard}>
           <div className={styles.formHeader}>
             <h1 className={styles.formTitle}>Welcome back!</h1>
-            <p className={styles.formSub}>Sign in to continue to Bodegaa</p>
+            <p className={styles.formSub}>Sign in to continue to Jeevan</p>
           </div>
 
           <form onSubmit={handleSubmit} noValidate>

@@ -71,7 +71,7 @@ export default function OtpPage() {
       {/* Left Panel */}
       <div className={styles.leftPanel}>
         <div className={styles.leftContent}>
-          <div className={styles.leftLogo} onClick={() => navigate('/')}>🛒 bodegaa</div>
+          <div className={styles.leftLogo} onClick={() => navigate('/')}>🛒 jeevan</div>
           <h2 className={styles.leftTitle}>One step away from great deals!</h2>
           <p className={styles.leftSub}>We take your account security seriously. A quick OTP verification keeps your account safe.</p>
           <div className={styles.leftFeatures}>
