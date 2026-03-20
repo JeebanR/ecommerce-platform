@@ -204,7 +204,7 @@ export default function HomePage() {
         <div className="container">
           <div className={styles.appCtaInner}>
             <div className={styles.appCtaContent}>
-              <h2 className={styles.appCtaTitle}>Shop Faster with the Bodegaa App</h2>
+              <h2 className={styles.appCtaTitle}>Shop Faster with the Jeevan App</h2>
               <p className={styles.appCtaSub}>Get exclusive app-only deals, track orders in real-time, and reorder with a single tap.</p>
               <div className={styles.appCtaBtns}>
                 {['App Store', 'Google Play'].map(s => (

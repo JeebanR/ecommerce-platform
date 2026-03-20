@@ -32,7 +32,7 @@ export default function AdminDashboard() {
         <div className={styles.sidebarLogo} onClick={() => navigate('/')}>
           <span>🛒</span>
           <div>
-            <div className={styles.sidebarLogoName}>bodegaa</div>
+            <div className={styles.sidebarLogoName}>Jeevan</div>
             <div className={styles.sidebarLogoSub}>Admin Panel</div>
           </div>
         </div>

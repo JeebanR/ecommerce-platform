@@ -10,15 +10,15 @@ export default function Footer() {
         <div className={styles.inner}>
           {/* Brand */}
           <div className={styles.brand}>
-            <div className={styles.logo} onClick={() => navigate('/')}>🛒 bodegaa</div>
+            <div className={styles.logo} onClick={() => navigate('/')}>🛒 jeevan</div>
             <p className={styles.tagline}>
               Your one-stop supermarket for fresh groceries, household essentials,
               and daily needs — delivered fast to your doorstep.
             </p>
             <div className={styles.contact}>
               <span>📍 Matrusri Nagar, Miyapur, Hyderabad, 500049</span>
-              <span>📞 +91 8886541155</span>
-              <span>✉️ supermarketsbodegaa@gmail.com</span>
+              <span>📞 +91 8249829625</span>
+              <span>✉️ supermarketsjeevan@gmail.com</span>
               <span>🕐 Mon–Sat, 9:00 AM – 6:00 PM</span>
             </div>
             <div className={styles.social}>
@@ -45,7 +45,7 @@ export default function Footer() {
           {/* App Download */}
           <div className={styles.col}>
             <h4 className={styles.colTitle}>Download App</h4>
-            <p className={styles.appText}>Shop faster with the Bodegaa App. Available on iOS & Android.</p>
+            <p className={styles.appText}>Shop faster with the Jeevan App. Available on iOS & Android.</p>
             {['App Store', 'Google Play'].map((a) => (
               <div key={a} className={styles.appBtn}>
                 <span>{a === 'App Store' ? '🍎' : '▶'}</span>
@@ -61,7 +61,7 @@ export default function Footer() {
 
       <div className={styles.bottom}>
         <div className={styles.bottomInner}>
-          <span>© 2025 Bodegaa Supermarkets Pvt. Ltd. All rights reserved.</span>
+          <span>© 2025 Jeevan Supermarkets Pvt. Ltd. All rights reserved.</span>
           <div className={styles.payments}>
             {['VISA', 'MC', 'UPI', 'GPAY', 'PAYTM'].map(p => (
               <span key={p} className={styles.payBadge}>{p}</span>

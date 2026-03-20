@@ -30,7 +30,7 @@ export default function Navbar() {
       <div className={styles.topBar}>
         <div className={styles.topBarInner}>
           <span>🚚 Free delivery on orders above ₹499</span>
-          <span>📞 +91 8886541155 &nbsp;|&nbsp; Mon–Sat 9AM–6PM</span>
+          <span>📞 +91 8249829625 &nbsp;|&nbsp; Mon–Sat 9AM–6PM</span>
         </div>
       </div>
 
@@ -40,7 +40,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className={styles.logo} onClick={() => navigate('/')}>
             <span className={styles.logoIcon}>🛒</span>
-            <span className={styles.logoText}>bodegaa</span>
+            <span className={styles.logoText}>jeevan</span>
           </div>
 
           {/* Location Pill */}
