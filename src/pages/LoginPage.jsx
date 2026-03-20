@@ -44,7 +44,7 @@ export default function LoginPage() {
       {/* Left Panel */}
       <div className={styles.leftPanel}>
         <div className={styles.leftContent}>
-          <div className={styles.leftLogo} onClick={() => navigate('/')}>🛒 jeevan</div>
+          <div className={styles.leftLogo} onClick={() => navigate('/')}>🛒  jeevan</div>
           <h2 className={styles.leftTitle}>Fresh groceries, delivered in minutes</h2>
           <p className={styles.leftSub}>Join 50,000+ happy customers shopping smarter every day.</p>
           <div className={styles.leftFeatures}>
